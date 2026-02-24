@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dawn Maltman
+# DATE: February 23, 2026
+# BRIEF DESCRIPTION:  Determine whether to give a compliment based on user answer
 
 
 
@@ -15,7 +15,20 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+        compliment()
+def compliment():
 
+    answer = input("Would you like a compliment? ")
+
+    if answer == 'yes':
+        print("You have wonderful eyes.")
+    
+    else:
+         print("No compliment for you!")
+    print("Thank you for playing.")
+
+main()
 
 
 
@@ -69,7 +82,7 @@ Thank you for playing.
 
 '''
 
-1. Did you struggle with this lab (YES/NO)?
+1. Did you struggle with this lab (YES/NO)? No
 
 
 
